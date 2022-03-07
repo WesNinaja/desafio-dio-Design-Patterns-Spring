@@ -9,20 +9,14 @@ Além diz foi feito o deploy no Heroku, onde a documentação pode ser encontrad
 https://desafio-dio-cep-user.herokuapp.com/
 
 
+**Para cadastrar um cliente no formato JSON, basta escrever nome e CEP no método POST:**
 
-Para cadastrar um cliente no formato JSON, basta escrever nome e CEP no método POST:
-
-{
-
- "nome": "Wesley Ninaja",
-
- "endereco": {
-
-  "cep": "08566-170"
-
- }
-
-}
+    {
+      "nome": "Wesley Ninaja",
+      "endereco": {
+      "cep" : "08566-170"
+      }
+    }
 
 
 
