@@ -14,13 +14,13 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>lab-padroes-projeto-spring</name>
 	<description>Exemplos de Padrões de Projeto em Spring</description>
-	
+
 	<properties>
 		<java.version>11</java.version>
 		<openapi.version>1.5.10</openapi.version>
 		<spring-cloud.version>2020.0.3</spring-cloud.version>
 	</properties>
-	
+
 	<dependencies>
 		<!-- Spring Data JPA (adicionado via Spring Initializr) -->
 		<dependency>
@@ -48,6 +48,12 @@
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<!-- Postgress Database (adicionado via Spring Initializr) -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 
